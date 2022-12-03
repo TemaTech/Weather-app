@@ -8,9 +8,45 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-  <div class="search">
-    <input type="text" placeholder="City name...">
-    <button>Search</button>
+  <nav>
+    <h1>Weather</h1>
+    <div class="search">
+      <div class="search-cont">
+        <input type="text" placeholder="City name...">
+      </div>
+      <button>Search</button>
+    </div>
+    <div class="links">
+      <a href="" target="_blank">Twitter</a>
+      <a href="" target="_blank">GitHub</a>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="weather">
+      <div class="heading">
+        <h1>--</h1>
+        <h3>--</h3>
+        <div class="imp">
+          <img>
+          <h1>--</h1>
+        </div>
+      </div>
+      <div class="weather-data">
+          <p id="feels">Feels like: <span>--</span></p>
+          <p id="humidity">Humidity: <span>--</span></p>
+          <p id="wind-speed">Wind speed: <span>--</span></p>
+          <p id="wind-direction">Wind direction: <span>--</span></p>
+          <p id="visibility">Visibility: <span>--</span></p>
+          <p id="pressure">Pressure: <span>--</span></p>
+      </div>
+    </div>
+    <div class="system">
+      <h5>Imperial system:</h5>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
   </div>
 </body>
 </html>
